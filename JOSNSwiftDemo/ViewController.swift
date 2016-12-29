@@ -53,12 +53,13 @@ class ViewController: UIViewController,UITableViewDataSource {
                                 self.imgURLArray.append(name as! String)
                             }
                             
-                            OperationQueue.main.addOperation({ 
-                                self.tableView.reloadData()
-                            })
                         }
                     }
                 }
+                
+                OperationQueue.main.addOperation({
+                    self.tableView.reloadData()
+                })
             }
         }).resume()
     }
