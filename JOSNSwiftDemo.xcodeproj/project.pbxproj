@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1225AF31E36E7190088B70E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1225AF21E36E7190088B70E /* DetailViewController.swift */; };
 		A15632501DF639A000D89B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156324F1DF639A000D89B16 /* AppDelegate.swift */; };
 		A15632521DF639A000D89B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15632511DF639A000D89B16 /* ViewController.swift */; };
 		A15632551DF639A000D89B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15632531DF639A000D89B16 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1225AF21E36E7190088B70E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A156324C1DF639A000D89B16 /* JOSNSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOSNSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A156324F1DF639A000D89B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15632511DF639A000D89B16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A156324F1DF639A000D89B16 /* AppDelegate.swift */,
 				A15632511DF639A000D89B16 /* ViewController.swift */,
 				A15632611DF666C400D89B16 /* TableViewCell.swift */,
+				A1225AF21E36E7190088B70E /* DetailViewController.swift */,
 				A15632531DF639A000D89B16 /* Main.storyboard */,
 				A15632561DF639A000D89B16 /* Assets.xcassets */,
 				A15632581DF639A000D89B16 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				A15632621DF666C400D89B16 /* TableViewCell.swift in Sources */,
 				A15632521DF639A000D89B16 /* ViewController.swift in Sources */,
 				A15632501DF639A000D89B16 /* AppDelegate.swift in Sources */,
+				A1225AF31E36E7190088B70E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				A15632601DF639A000D89B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

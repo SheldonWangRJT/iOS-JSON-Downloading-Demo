@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
     final let urlString = "http://microblogging.wingnity.com/JSONParsingTutorial/jsonActors"
     
@@ -101,6 +101,15 @@ class ViewController: UIViewController,UITableViewDataSource {
         return cell
     }
     
-
+    ///for showing next detailed screen with the downloaded info
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        vc.imageString = imgURLArray[indexPath.row]
+        vc.nameString = nameArray[indexPath.row]
+        vc.dobString = dobArray[indexPath.row]
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
